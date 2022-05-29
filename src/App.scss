@@ -1,0 +1,22 @@
+$primary-color: rgb(207, 83, 122);
+
+@import 'animate.css';
+
+
+
+
+@font-face{
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2')
+}
+
+
+@font-face{
+  font-family: 'Coolvetica';
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2')
+}
+
+input, 
+textarea{
+  font-family:'La Belle Aurore';
+}
