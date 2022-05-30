@@ -45,19 +45,19 @@ i{
     transition: all 0.3s ease-out;
 }
 
-&:hover{
+a:hover{
     color:rgb(173, 109, 141);
 
-    svg{
+    /*svg{
         opacity: 0;
     }
 
     &:after{
         opacity: 1;
-    }
+    }*/
 }
 
-&::after{
+&:after{
     content: '';
     font-size: 9px;
     letter-spacing: 2px;
@@ -70,7 +70,7 @@ i{
     transition: all 0.3 ease-out;
 }
  &:first-child{
-    &::after {
+    &:after {
         content: 'Home'
     }
     }
@@ -93,4 +93,30 @@ a.active{
     }
 }
 }
+
+}
+
+.icons{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: block;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+
+    li {
+        a{
+            padding: 7px 0;
+            display: block;
+            font-size: 15px;
+            line-height: 16px;
+
+            &:hover svg{
+                color: rgb(173, 109, 141);
+            }
+        }
+    }
+
 }
