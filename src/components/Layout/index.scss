@@ -123,6 +123,14 @@ a.active{
 
 }*/
 
+.bars{
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+    margin-top: 4px;
+    margin-right: 15px;
+}
+
 ul{
     display: flex;
     justify-content:right;
@@ -130,10 +138,24 @@ ul{
 
 ul li{
     list-style: none;
-    padding: 5px 30px;
+    padding: 5px 40px;
+    
 }
 
 ul li > a{
     color: white;
     font-size: 18px;
+    text-decoration: none;
 }
+
+ul li > a:hover{
+    color: rgb(212, 156, 184);
+    
+}
+
+.nav-container{
+    z-index: 99999;
+    cursor: pointer;
+    float: right;
+}
+
