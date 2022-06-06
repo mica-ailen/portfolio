@@ -1,11 +1,12 @@
 import React from 'react';
-import './index.scss';
 
-export default function Cards (title, imageUrl, body){
+export default function Cards ({title, imageUrl, body}){
     return(
+            <>
         <div className="card-container">
-            <div class="image-container">
-             <img src={imageUrl} alt=''/>   
+        <div className='cards'>
+        <div className="image-container">
+        <img src={imageUrl} alt=''/>   
             </div>
             <div className="card-title">
                 <h3>{title}</h3>
@@ -17,7 +18,9 @@ export default function Cards (title, imageUrl, body){
                 <button>
                 <a>View more</a>
                 </button>
-            </div>
+                </div>
+                </div>
         </div>
+        </>
     )
 }
