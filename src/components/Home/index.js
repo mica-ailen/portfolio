@@ -1,5 +1,8 @@
 import {Link} from 'react-router-dom'
 import './index.scss'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faM} from '@fortawesome/free-solid-svg-icons'
+
 
 const Home = () => {
     return (
@@ -12,8 +15,9 @@ const Home = () => {
                 <h2>Frontend Developer</h2>
                 <Link to="/contact" className="button">CONTACT ME</Link>
             </div>
-        </div>
+            </div>
+      
     );
 }
 
-export default Home
+export default Home;
