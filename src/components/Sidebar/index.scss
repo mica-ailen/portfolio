@@ -1,23 +1,14 @@
-//Navbar mobile
+//Mobile first
 
-/*.nav-links {
-    margin-top: 1.2rem;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 400px;
-    transform: translate(100%);
-    transition: transform 0.5s ease-in;
-    z-index: 999;
-  }*/
 
-  .nav-links li {
+.nav-links li {
     list-style-type: none;
     margin-bottom: 3rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: white;
   }
 
 
@@ -32,19 +23,6 @@
     top: 35px;
 }
 
-.tags{
-    color: rgb(91, 17, 54);
-    opacity: 0.6;
-    position: absolute;
-    bottom: 0;
-    left: 120px;
-    font-size: 18px;
-    font-family: 'La Belle Aurore'
-}
-
-.bottom-tag-html{
-    margin-left: -20px;
-}
 
 /*.container{
     width: 100%;
@@ -65,9 +43,9 @@
     border-radius: 50%;
     text-align: center;
     font-size: 2rem;
-    margin-right: 65rem;
+    margin-right: 30rem;
     margin-bottom: 20px;
-    margin-top: -0.2rem;
+    margin-top: -0.6rem;
 
 }
 
@@ -75,4 +53,61 @@
     color: rgb(91, 17, 54);
 }
 
-   
+
+
+//Navbar mobile
+
+/*.nav-links {
+    margin-top: 1.2rem;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    transform: translate(100%);
+    transition: transform 0.5s ease-in;
+    z-index: 999;
+  }*/
+
+
+  @media screen and (min-width: 800px) {
+
+  .nav-links li {
+    list-style-type: none;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+
+.page {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.bars{
+    display: none;
+}
+
+.logo{
+    width: 40px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 0.5rem;
+
+}
+
+.faM{
+    color: rgb(91, 17, 54);
+}
+
+  }

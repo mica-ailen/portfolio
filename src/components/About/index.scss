@@ -1,16 +1,9 @@
+//Mobile first
+
 .about-page{
     display: block;
-    float: left;
-    width: 35%;
-    margin-left: 10rem;
-        /*position: absolute;
-        left: 10%;
-        top: 5%;
-        width: 35%;
-        vertical-align: middle;
-        display: table-cell;
-        max-height: 90%;   
-        text-align: justify;*/
+    width: 80%;
+    margin-left: 5rem;
     }
     
 
@@ -39,10 +32,10 @@ h1{
     font-size: 50px;
     color: rgb(91, 17, 54);
     font-weight: 400;
-    margin-top: 0;
+    margin-top: 4rem;
     position: relative;
     margin-bottom: 40px;
-    left: 10px;
+    left: 5px;
 }
 
 //Animation cube
@@ -50,12 +43,12 @@ h1{
 .stage-cube-cont{
     width: 50%;
     height: 100%;
-    top: 0;
-    padding-top: 18%;
+    padding-top: 3rem;
     margin-left: 0;
     position: absolute;
-    right: 0;
+    right: 10rem;
     overflow: hidden;
+    margin-bottom: 10rem;
 }
 
 .cubespinner{
@@ -121,4 +114,42 @@ h1{
     83%{
         transform: rotateX(90deg);
     }
+}
+
+@media screen and (min-width: 300px) and (max-width: 380px){
+    body{
+        overflow-y: visible;
+    }
+
+}
+
+
+@media screen and (min-width: 800px) {
+
+body{
+    overflow: hidden;
+}
+
+.about-page{
+    float: left;
+    width: 35%;
+    margin-left: 10rem;
+    }
+        
+
+h1{
+    font-size: 50px;
+    margin-top: 0;
+    left: 10px;
+}
+
+//Animation cube
+
+.stage-cube-cont{
+    top: 0;
+    padding-top: 18%;
+    margin-left: 0;
+    right: 0;
+}
+
 }
