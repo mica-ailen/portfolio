@@ -18,8 +18,19 @@
     //min-height: 500px
 }*/
 
-.nav-links{
+
+.nav-container{
+    transform: translateX(-100%);
+    transition: all .45s;
     //display: none;
+}
+
+.nav-container > a::before{
+    background: transparent;
+}
+
+.nav-container.open{
+ transform: translateX(0);
 }
 
 .nav-links.active{

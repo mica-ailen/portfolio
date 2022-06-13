@@ -4,18 +4,20 @@ import Logo from '../Sidebar/logo.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faHome, faUser, faEnvelope, faBars, faM} from '@fortawesome/free-solid-svg-icons'
 import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
+import { useState } from 'react'
 
 const Sidebar = () => {
 
+    const [isOpen, setIsOpen] = useState(false);
         return(
 <div className='navbar'>
 <div className="logo">
             <FontAwesomeIcon icon={faM} className="faM" color= "white"/>
             </div>
             <div>
-    <FontAwesomeIcon icon={faBars} onClick={showNavbar} className="bars" color="white"></FontAwesomeIcon>
+    <FontAwesomeIcon icon={faBars} className={`bars ${isOpen && "open" }`} onClick={() => setIsOpen(!isOpen)} color="white"></FontAwesomeIcon>
     </div>
-    <div className="nav-container">
+    <div className={`nav-container ${isOpen && "open"}`}>
     <ul className="nav-links">
     <NavLink exact="true" activeclassname="active" to="/">
     <li> <a href="#">Home</a></li>
