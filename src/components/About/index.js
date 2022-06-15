@@ -8,9 +8,12 @@ const About = () => {
         <div className="container about-page">
             <div className='text-zone-about'>
                 <h1>About me</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed dignissim metus, at imperdiet dui. Duis nec iaculis justo, sit amet rutrum justo. Ut sed efficitur felis. Aliquam vestibulum sodales justo, sit amet imperdiet ante blandit varius. In viverra volutpat lacus. Quisque porttitor massa at tincidunt dapibus. Etiam convallis nulla orci. Donec at eros volutpat, convallis dui vel, ultricies mi. Nam sollicitudin sagittis ornare.</p>
-                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque accumsan felis turpis, eget interdum dui facilisis at. In aliquam, est in euismod consectetur, tellus velit commodo risus, eget cursus turpis nibh et est. Etiam condimentum neque sapien, eget ornare est eleifend eu. Donec tristique ut mauris in convallis. In et lectus id mauria.</p>
-                <p>Praesent vitae hendrerit lacus. Donec porta sodales velit quis convallis. Nunc ultricies volutpat magna id porta. Pellentesque tristique, neque eget aliquet elementum, lectus elit ultrices arcu, porta aliquam nisl nisi sed risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam a varius felis, vel vehicula nulla. Quisque vitae est nec justo feugiat aliquet quis sit amet libero.</p>
+                <p>I am a trainee Frontend Web Developer (EU citizenship). I would love to keep growing in this field because my goal is to help people have a better experience in User Interfaces.</p>
+                <p>I started studying the basics in the pandemic and I followed this process because I realized that I am passionate about learning new things and developing them.
+                    Whenever I have free time I dedicate it to keep learning, to improve my programming skills and to start new projects.
+</p>
+                <p>I was helping in a project, which is in my profile. With that I learned how to develop parts of a web page, how to use Figma and how to manage my branches in Git.</p>
+                <p>Currently I am starting to develop Freelance projects, which serve me to challenge myself.</p>
             </div>
             <div className="stage-cube-cont">
                 <div className="cubespinner">
