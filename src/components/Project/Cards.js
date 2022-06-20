@@ -16,7 +16,7 @@ export default function Cards ({title, imageUrl, body}){
             </div>
             <div className="btn">
                 <button>
-                <a>View more</a>
+                <a href="https://www.polskablog.com/" target="_blank">View more</a>
                 </button>
                 </div>
                 </div>

@@ -2,7 +2,8 @@ import React from 'react';
 import './index.scss';
 import Project from './Project'
 import Cards from './Cards';
-import img from './logo1.png';
+import img from './polskablog.PNG';
+import Img from './movieapp.PNG' 
 
 const Projects = () => {
     return(
@@ -15,11 +16,11 @@ const Projects = () => {
     />
     <Cards 
     title='Movie App'
-    imageUrl={img}
+    imageUrl={Img}
     body='The goal of this project was to create a small application that chooses one random movie you can watch according to the category you want at that moment.'/>
     <Cards
     title='Movie App'
-    imageUrl={img}
+    imageUrl={Img}
     body='The goal of this project was to create a small application that chooses one random movie you can watch according to the category you want at that moment.'/>
         </>
     )
