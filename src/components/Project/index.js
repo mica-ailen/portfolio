@@ -2,8 +2,9 @@ import React from 'react';
 import './index.scss';
 import Project from './Project'
 import Cards from './Cards';
-import img from './polskablog.PNG';
-import Img from './movieapp.PNG' 
+import project1 from './polskablog.PNG';
+import project2 from './movieapp.PNG';
+import project3 from './project-recipes.PNG';
 
 const Projects = () => {
     return(
@@ -11,16 +12,16 @@ const Projects = () => {
     <Project/>
     <Cards
      title='Polska Blog'
-     imageUrl={img}
+     imageUrl={project1}
      body='I was helping in this project for the frontend part. There I was learning the best practices, how to develop the design from Figma and how to make a responsive website.'
     />
     <Cards 
     title='Movie App'
-    imageUrl={Img}
+    imageUrl={project2}
     body='The goal of this project was to create a small application that chooses one random movie you can watch according to the category you want at that moment.'/>
     <Cards
     title='Movie App'
-    imageUrl={Img}
+    imageUrl={project3}
     body='The goal of this project was to create a small application that chooses one random movie you can watch according to the category you want at that moment.'/>
         </>
     )
