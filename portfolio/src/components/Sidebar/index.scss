@@ -1,0 +1,123 @@
+//Mobile first
+
+@media screen and (max-width: 799px){
+    .nav-links li {
+        list-style-type: none;
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
+    
+    
+    .page {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    
+    .top-tags{
+        bottom: auto;
+        top: 35px;
+    }
+    
+
+    
+    .logo{
+        width: 40px;
+        height: 20px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        text-align: center;
+        font-size: 2rem;
+        margin-right: 30rem;
+        margin-bottom: 5px;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+
+    
+    }
+    
+    .faM{
+        color: rgb(91, 17, 54);
+    }
+    a:link {
+        text-decoration: none;
+    }
+    
+    a:visited {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    a:active {
+        text-decoration: none;
+    }
+    
+}
+
+
+
+  @media screen and (min-width: 800px) {
+
+    a:link {
+        text-decoration: none;
+    }
+    
+    a:visited {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    a:active {
+        text-decoration: none;
+    }
+
+  .nav-links li {
+    list-style-type: none;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+
+.page {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.bars{
+    display: none;
+}
+
+.logo{
+    width: 40px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    margin-bottom: 25px;
+     position: absolute;
+    //margin-top: 0.5rem;
+
+}
+
+.faM{
+    color: #6f1e2c;
+}
+
+  }

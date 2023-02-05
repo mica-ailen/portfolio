@@ -1,0 +1,135 @@
+//Mobile first
+
+body{
+    overflow-y:visible;
+}
+
+.projects-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+h1{
+    font-size: 50px;
+    margin-top: 5rem;
+    color: rgb(91, 17, 54);
+    font-weight: 400;
+    vertical-align: middle;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+//Projects cards
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+.card-container {
+display: block;
+margin-bottom: 5rem;
+cursor: pointer;
+background-color: white;
+width: 330px;
+height: 390px;
+box-shadow: 0px 0px 15px -5px;
+text-align: center;
+transition: transform 200ms ease-in;
+animation: fadeIn 2s 2.2s backwards;
+
+
+
+}
+
+.card-container:hover{
+transform:scale(1.02);
+}
+
+.cards a {
+color: white;
+text-decoration: none;
+}
+
+
+.image-container img{
+overflow: hidden;
+height: 150px;
+object-fit:contain;
+width: 280px;
+
+}
+
+
+.card-title{
+font-size:16px;
+color: #6f1e2c;
+}
+
+
+.card-body p{
+color: black;
+margin-left: 2rem;
+margin-right: 2rem;
+}
+
+button{
+cursor: pointer;
+width: 120px;
+height: 40px;
+background-color: #7c2c3a;
+color: white;
+padding: 1rem;
+border: none;
+border-radius: 15px;
+margin-top: 0.5rem;
+}
+
+button:hover{
+background-color: #4f1922;
+}
+
+
+
+////////////////////////////////
+
+@media screen and (min-width: 800px) {
+
+body{
+   overflow: hidden;
+}
+
+
+.projects-page{
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+//Projects cards
+
+
+.center{
+flex-direction: row;
+}
+
+.card-container {
+
+display: inline-block;
+margin-left: 3rem;
+
+}
+
+.card-container:hover{
+    transform:scale(1.02);
+}
+
+
+
+}
