@@ -1,5 +1,9 @@
 //Mobile first
 
+body{
+  overflow-x: hidden;
+}
+
 .home-page {
   width: 100%;
   margin-left: 5rem;
@@ -117,6 +121,11 @@ h2 {
 }
 
 @media screen and (min-width: 200px) and (max-width:500px){
+  
+  body{
+  overflow-x: hidden;
+}
+  
   .container-icon{
     margin-top: 8rem;
   }
