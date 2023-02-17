@@ -1,15 +1,11 @@
 //Mobile first
 
-.scrollable-page {
-  overflow-y: hidden !important;
-}
-
 .home-page {
   width: 100%;
-  max-height: 80%;
   margin-left: 5rem;
   z-index: 9999;
-  overflow: hidden;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
 }
 
 .title {
@@ -59,7 +55,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15rem;
+  margin-top: 10rem;
   margin-right: 10rem;
 }
 
@@ -120,6 +116,12 @@ h2 {
   height: 60px;
 }
 
+@media screen and (min-width: 200px) and (max-width:500px){
+  .container-icon{
+    margin-top: 8rem;
+  }
+
+}
 
 
 @media screen and (min-width: 800px) {
