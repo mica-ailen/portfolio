@@ -1,0 +1,12 @@
+html{
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family:'Nunito', 'sans-serif';
+  color: #444;
+  background:#D75A6E;
+  display: block;
+  overflow: hidden;
+}
