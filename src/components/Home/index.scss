@@ -1,15 +1,14 @@
 //Mobile first
 
 body{
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .home-page {
-  width: 100%;
+  max-width: 100%;
   margin-left: 5rem;
   z-index: 9999;
-  overflow-x: hidden !important;
-  overflow-y: hidden !important;
+  overflow-x: hidden;
 }
 
 .title {
@@ -121,11 +120,6 @@ h2 {
 }
 
 @media screen and (min-width: 200px) and (max-width:500px){
-  
-  body{
-  overflow-x: hidden;
-}
-  
   .container-icon{
     margin-top: 8rem;
   }
@@ -165,14 +159,12 @@ h2 {
   }
 
   .container-icon {
+    padding-top: 10rem;
     cursor: pointer;
     display: flex;
     justify-content: center;
     margin-left: 50rem;
     margin-top: 20rem;
-  }
-  .container-icon {
-    padding-top: 10rem;
   }
 
   .text-zone {
@@ -191,13 +183,6 @@ h2 {
 
   h2 {
     font-size: 4rem;
-  }
-  .container-icon {
-    padding-top: 10rem;
-  }
-
-  .text-zone {
-    margin-top: 6rem;
   }
 
   .button {
