@@ -8,13 +8,14 @@
     z-index: 99999;
   }
 
-  .nav-container > a::before {
-    background: transparent;
-  }
 
   .nav-container.open {
     display: block;
     transform: translateX(0);
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .nav-links.active {
@@ -26,7 +27,7 @@
     background: #7c2c3a;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    
   }
   
   .logo {
@@ -50,7 +51,7 @@
     margin-top: -120px;
     width: 100%;
 
-    a {
+    .link {
       font-size: 22px;
       color: white;
       display: block;
@@ -63,7 +64,7 @@
         transition: all 0.3s ease-out;
       }
 
-      a:hover {
+      .link:hover {
         color: #D75A6E; 
         text-decoration: none;
       }
@@ -109,18 +110,11 @@
   .bars {
     position: absolute;
     top: 2rem;
-    right: 1rem;
+    right: 2rem;
     flex-direction: column;
     justify-content: space-between;
     font-size: 20px;
     cursor: pointer;
-  }
-
-  ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .nav-links li {
@@ -129,14 +123,10 @@
     text-align: center;
   }
 
-  ul li > a {
+  .link {
     color: white;
     font-size: 18px;
     text-decoration: none;
-  }
-
-  ul li > a:hover {
-    color: rgb(212, 156, 184);
   }
 
   .nav-container {
@@ -156,6 +146,16 @@
   .nav-links {
     margin-top: 1.5rem;
   }
+
+  .link {
+    color: white;
+    font-size: 2rem;
+  }
+
+  .link:hover {
+    color: #D75A6E; 
+  }
+  
 
   .logo {
     display: block;
@@ -179,7 +179,7 @@
     margin-top: -120px;
     width: 100%;
 
-    a {
+    .link {
       font-size: 22px;
       color: white;
       display: block;
