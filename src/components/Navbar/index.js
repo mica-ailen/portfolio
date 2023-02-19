@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faM } from '@fortawesome/free-solid-svg-icons'
@@ -26,36 +26,38 @@ const Navbar = () => {
             exact="true"
             activeclassname="active"
             to="/"
-            onClick={() => setIsOpen(!isOpen)}>
+            onClick={() => setIsOpen(!isOpen)}
+            className="link">
             <li>
               {' '}
-              <a href="#">Home</a>
+             Home
             </li>
           </NavLink>
           <NavLink
             exact="true"
             activeclassname="active"
-            className="contact-link"
+            className="link"
             to="/about"
             onClick={() => setIsOpen(!isOpen)}>
             <li>
               {' '}
-              <a href="#">About</a>
+              About
             </li>
           </NavLink>
           <NavLink
             exact="true"
             activeclassname="active"
             to="/projects"
-            onClick={() => setIsOpen(!isOpen)}>
+            onClick={() => setIsOpen(!isOpen)}
+            className="link">
             <li>
               {' '}
-              <a href="#">Projects</a>
+            Projects
             </li>
           </NavLink>
           <li>
             {' '}
-            <a href="https://www.linkedin.com/in/micaela-paw/" target="_blank">
+            <a href="https://www.linkedin.com/in/micaela-paw/" target="_blank" className='link'>
               Contact
             </a>
           </li>
