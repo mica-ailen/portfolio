@@ -119,6 +119,10 @@ h2 {
   height: 60px;
 }
 
+.container-heart{
+  display: none;
+}
+
 @media screen and (min-width: 200px) and (max-width:500px){
   .container-icon{
     margin-top: 8rem;
@@ -136,6 +140,7 @@ h2 {
     margin-top: -20rem;
     margin-left: 35rem;
   }
+
 }
 
 @media screen and (min-width: 950px) {
@@ -191,4 +196,33 @@ h2 {
     width: 120px;
     font-size: 1.6rem;
   }
+
+
+  .container-heart{
+    display: block;
+    margin-top: 5rem;
+    float: right;
+  }
+
+  .container-heart path {
+    fill: transparent;
+    stroke-width: 8;
+    stroke: #893b48;
+  }
+  
+  .operator {
+    animation: fadeIn 1s 1.5s backwards;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .operator:hover {
+    fill: #7c2c3a;
+  }
+  .container-icons{
+    float: right;
+  }
+  
 }
