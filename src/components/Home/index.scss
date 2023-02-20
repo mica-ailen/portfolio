@@ -8,7 +8,6 @@ body{
   max-width: 100%;
   margin-left: 5rem;
   z-index: 9999;
-  overflow-x: hidden;
 }
 
 .title {
@@ -132,12 +131,15 @@ h2 {
 
 
 @media screen and (min-width: 800px) {
+
+  .text-zone {
+    width: 80%;
+  }
   
   .container-icon {
     cursor: pointer;
     display: flex;
     justify-content: center;
-    margin-top: -20rem;
     margin-left: 35rem;
   }
 
