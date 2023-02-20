@@ -29,8 +29,7 @@ const Navbar = () => {
             onClick={() => setIsOpen(!isOpen)}
             className="link">
             <li>
-              {' '}
-             Home
+            Home
             </li>
           </NavLink>
           <NavLink
@@ -40,7 +39,6 @@ const Navbar = () => {
             to="/about"
             onClick={() => setIsOpen(!isOpen)}>
             <li>
-              {' '}
               About
             </li>
           </NavLink>
@@ -51,12 +49,10 @@ const Navbar = () => {
             onClick={() => setIsOpen(!isOpen)}
             className="link">
             <li>
-              {' '}
             Projects
             </li>
           </NavLink>
           <li>
-            {' '}
             <a href="https://www.linkedin.com/in/micaela-paw/" target="_blank" className='link'>
               Contact
             </a>
