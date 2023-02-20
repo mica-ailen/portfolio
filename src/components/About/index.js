@@ -5,16 +5,16 @@ import {
   faJs,
   faReact,
   faGithub,
-  faLinkedin
+  faLinkedin,
 } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 
 const About = () => {
   return (
     <div className="container about-page">
       <div className="text-zone-about">
-        <h1>About me</h1>
+        <h1 className='title-about'>About me</h1>
         <p>
           I am a Frontend Web Developer (EU citizenship). I am passionate about
           creating visually appealing and user-friendly websites.
@@ -35,21 +35,32 @@ const About = () => {
           to challenge myself.
         </p>
         <p>
-          I have experience with HTML, CSS, Bootstrap, JavaScript and React.
+        Tech stack used: HTML, CSS, Bootstrap, JavaScript and React.
         </p>
-        <div className='icons'>
+        <div className="icons">
           <h3>For more you can find me in:</h3>
-          <a href="https://github.com/mica-ailen" target="_blank"><FontAwesomeIcon icon={faGithub} color="white" className='github-icon'/></a>
-          <a href="https://www.linkedin.com/in/micaela-paw/" target="_blank"><FontAwesomeIcon icon={faLinkedin} color="white" className='linkedin-icon'/></a>
+          <a href="https://github.com/mica-ailen" target="_blank">
+            <FontAwesomeIcon
+              icon={faGithub}
+              color="white"
+              className="github-icon"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/micaela-paw/" target="_blank">
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              color="white"
+              className="linkedin-icon"
+            />
+          </a>
         </div>
-      </div>
       <div className="stage-cube-cont">
         <div className="cubespinner">
           <div className="face1">
-          <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+            <FontAwesomeIcon icon={faHtml5} color="#F06529" />
           </div>
           <div className="face2">
-          <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+            <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
           </div>
           <div className="face3">
             <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
@@ -64,7 +75,9 @@ const About = () => {
         </div>
       </div>
     </div>
+    </div>
   )
 }
 
 export default About
+
