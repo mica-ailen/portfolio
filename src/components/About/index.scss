@@ -28,7 +28,7 @@ p {
   }
 }
 
-h1 {
+.title-about {
   font-size: 50px;
   color: #6f1e2c;
   font-weight: 400;
@@ -42,12 +42,11 @@ h1 {
 //Animation cube
 
 .stage-cube-cont {
-  width: 50%;
+  margin-top: 4rem;
+  width: 80%;
   height: 100%;
-  padding-top: 3rem;
   margin-left: 0;
   position: absolute;
-  right: 10rem;
   overflow: hidden;
   margin-bottom: 10rem;
   animation: fadeIn 1s 2s backwards;
@@ -170,7 +169,7 @@ h1 {
     margin-left: 10rem;
   }
 
-  h1 {
+  .title-about {
     font-size: 50px;
     margin-top: 0;
     left: 10px;
@@ -180,23 +179,23 @@ h1 {
     font-size: 1.8rem;
   }
 
-  .stage-cube-cont {
-    margin-top: 4rem;
-  }
+}
 
-  //Animation cube
-
-  .stage-cube-cont {
-    top: 0;
-    padding-top: 18%;
-    margin-left: 0;
-    right: 0;
+@media screen and (min-width: 800px) and (max-width: 1100px){
+  .text-zone-about {
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 1150px) {
-  .stage-cube-cont {
-    padding-top: 15%;
+   //Animation cube
+   .stage-cube-cont {
+    width: 50%;
+    margin-top: 4rem;
+    top: 0;
+    padding-top: 18%;
+    margin-left: 0;
+    right: 0;
   }
 }
 
