@@ -24,15 +24,14 @@ const Projects = () => {
         <Cards
           title="Choosing your movie"
           imageUrl={project2}
-          body="How many times have you sat for hours trying to find a good movie to watch? I made this application that will give you a movie depending on the category you want to watch today."
+          body="Do you ever struggle to decide on what movie to watch? My app makes it easy. Choose a category and get a randomized suggestion. Enjoy a hassle-free movie-watching experience."
           url={'https://github.com/mica-ailen/Choosing-your-movie'}
           button={'View repository'}
         />
         <Cards
           title="Getting recipes"
           imageUrl={project3}
-          body="I developed this application to make it easier for you to find what to cook with the ingredients you have at home.
-         Just write down the ingredients you want and you will have all the recipes."
+          body="Staring at a fridge full of ingredients? My app helps you out. Enter an ingredient and get a selection of recipes, plus step-by-step video tutorials. Cook with ease, no matter your experience."
           url={'https://github.com/mica-ailen/Getting-recipes'}
           button={'View repository'}
         />
@@ -46,7 +45,7 @@ const Projects = () => {
         <Cards
           title="Circra"
           imageUrl={project5}
-          body="I am developing an E-commerce for a Graphic Company where you can see the products, have the option to add them to a list and then communicate via Whatsapp to complete the purchase."
+          body="Do you want to buy Graphic Company products online? Look no further. My app lets you browse, add to wishlist, and complete purchases via WhatsApp. It's shopping made simple."
           url={'https://www.circra.com'}
           button={'In progress'}
         />
@@ -56,3 +55,4 @@ const Projects = () => {
 }
 
 export default Projects
+
