@@ -35,7 +35,7 @@ const About = () => {
           to challenge myself.
         </p>
         <p>
-        Tech stack: HTML, CSS, Bootstrap, JavaScript, React and API Rest.
+        Tech stack: HTML, CSS, Bootstrap, JavaScript, React, API Rest, Git and GitHub.
         </p>
         <div className="icons">
           <h3>For more you can find me in:</h3>
