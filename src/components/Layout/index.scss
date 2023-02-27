@@ -6,16 +6,15 @@
     transition: all 0.45s;
     display: none;
     z-index: 99999;
-  }
 
-
-  .nav-container.open {
+  &.open {
     display: block;
     transform: translateX(0);
     overflow-x: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
   }
 
   .nav-links.active {
