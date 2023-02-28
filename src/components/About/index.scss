@@ -179,6 +179,9 @@ p {
     font-size: 1.8rem;
   }
 
+  .icons h3{
+    font-size: 1.6rem;
+  }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1100px){
@@ -191,7 +194,7 @@ p {
    //Animation cube
    .stage-cube-cont {
     width: 50%;
-    margin-top: 6rem;
+    margin-top: 4rem;
     top: 0;
     padding-top: 18%;
     margin-left: 0;
@@ -199,7 +202,11 @@ p {
   }
 
   .text-zone-about p {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+  }
+
+  .icons h3{
+    font-size: 1.6rem;
   }
 }
 
