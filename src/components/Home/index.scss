@@ -132,10 +132,21 @@ h2 {
 
 @media screen and (min-width: 800px) {
 
-  .text-zone {
-    width: 80%;
+  .title {
+    font-size: 4rem;
   }
-  
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .text-zone {
+    position: absolute;
+    width: 40%;
+    max-height: 90%;
+    margin-left: 10rem;
+  }
+
   .container-icon {
     cursor: pointer;
     display: flex;
@@ -143,12 +154,38 @@ h2 {
     margin-left: 35rem;
   }
 
+  .container-heart{
+    display: block;
+    margin-top: 5rem;
+    float: right;
+  }
+
+  .container-heart path {
+    fill: transparent;
+    stroke-width: 8;
+    stroke: #893b48;
+  }
+  
+  .operator {
+    animation: fadeIn 1s 1.5s backwards;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .operator:hover {
+    fill: #7c2c3a;
+  }
+  .container-icons{
+    float: right;
+  }
+
 }
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 1200px) {
   .home-page {
     max-width: 100%;
-    max-height: 60%;
   }
 
   .text-zone {
@@ -198,33 +235,4 @@ h2 {
     width: 120px;
     font-size: 1.6rem;
   }
-
-
-  .container-heart{
-    display: block;
-    margin-top: 5rem;
-    float: right;
-  }
-
-  .container-heart path {
-    fill: transparent;
-    stroke-width: 8;
-    stroke: #893b48;
-  }
-  
-  .operator {
-    animation: fadeIn 1s 1.5s backwards;
-    margin-right: 5rem;
-    margin-top: 3rem;
-    width: 60px;
-    height: 60px;
-  }
-  
-  .operator:hover {
-    fill: #7c2c3a;
-  }
-  .container-icons{
-    float: right;
-  }
-  
 }
