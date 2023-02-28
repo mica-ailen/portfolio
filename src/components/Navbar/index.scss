@@ -128,20 +128,27 @@
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 991px) {
+
   .navbar {
     height: 58px;
   }
+
   .nav-links {
     margin-top: 1.8rem;
   }
 
   .link {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
-
+  
   .logo {
     margin-top: 1.5rem;
   }
 }
 
+@media screen and (min-width: 1300px) {
+  .link {
+    font-size: 2rem;
+  }
+}
