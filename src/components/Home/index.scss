@@ -161,13 +161,14 @@ h2 {
   }
 
   .heart {
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
   }
 
-  .second-heart {
-    height: 70px;
-    width: 70px;
+  .operator,
+  .operators{
+    width: 6px;
+    height: 60px;
   }
 
 }
