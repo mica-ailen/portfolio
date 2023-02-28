@@ -139,31 +139,24 @@ h2 {
   }
 
   .title {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .text-zone {
-    position: absolute;
     width: 40%;
     max-height: 90%;
     margin-left: 10rem;
   }
 
-  /*.container-icon {
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    margin-left: 35rem;
-  }*/
   .container-icon {
     cursor: pointer;
     display: flex;
     justify-content: center;
-    margin-top: 24rem;
+    margin-top: -20rem;
     margin-left: 50rem;
   }
 
@@ -177,33 +170,6 @@ h2 {
     width: 70px;
   }
 
-  .container-heart {
-    display: block;
-    margin-top: 5rem;
-    float: right;
-    margin-right: 4rem;
-  }
-
-  .container-heart path {
-    fill: transparent;
-    stroke-width: 8;
-    stroke: #893b48;
-  }
-
-  .operator {
-    animation: fadeIn 1s 1.5s backwards;
-    margin-right: 5rem;
-    margin-top: 3rem;
-    width: 60px;
-    height: 60px;
-  }
-
-  .operator:hover {
-    fill: #7c2c3a;
-  }
-  .container-icons {
-    float: right;
-  }
 }
 
 @media screen and (min-width: 1300px) {
@@ -232,6 +198,35 @@ h2 {
     justify-content: center;
     margin-left: 50rem;
     margin-top: 20rem;
+  }
+
+  .container-heart {
+    animation: fadeIn 1.5s 2s backwards;
+    display: block;
+    margin-top: 5rem;
+    float: right;
+    margin-right: 4rem;
+  }
+
+  .container-heart path {
+    fill: transparent;
+    stroke-width: 8;
+    stroke: #893b48;
+  }
+
+  .operator {
+    animation: fadeIn 1s 1.5s backwards;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    width: 60px;
+    height: 60px;
+  }
+
+  .operator:hover {
+    fill: #7c2c3a;
+  }
+  .container-icons {
+    float: right;
   }
 
   .heart {
