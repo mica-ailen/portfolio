@@ -1,7 +1,8 @@
 //Mobile first
 
-body{
+body {
   overflow-x: hidden !important;
+  overflow: hidden;
 }
 
 .home-page {
@@ -19,7 +20,6 @@ body{
 }
 
 h2 {
-  margin-left: 2rem;
   color: #6f1e2c;
   font-size: 30px;
   font-weight: 400;
@@ -42,12 +42,11 @@ h2 {
   border: 1.5px solid #6f1e2c;
   border-radius: 20px;
   float: left;
-  margin-left: 2rem;
   animation: fadeIn 1s 1.4s backwards;
 }
 
 .button:hover {
-  background-color: #D75A6E; // rgb(243, 106, 136);
+  background-color: #d75a6e; // rgb(243, 106, 136);
   color: black;
   box-shadow: 0 0 5px 0px rgb(96, 31, 57);
 }
@@ -61,6 +60,11 @@ h2 {
   margin-right: 10rem;
 }
 
+.heart {
+  width: 180px;
+  height: 180px;
+}
+
 .container-icon path {
   fill: transparent;
   stroke-width: 10;
@@ -71,8 +75,8 @@ h2 {
   animation: fadeIn 1s 1.5s backwards;
   margin-right: 5rem;
   margin-top: 3rem;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
 }
 
 .operator:hover {
@@ -114,28 +118,25 @@ h2 {
   animation: fadeIn 1s 1.9s backwards;
   margin-left: 5rem;
   margin-top: 3rem;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
 }
 
-.container-heart{
+.container-heart {
   display: none;
 }
 
-@media screen and (min-width: 200px) and (max-width:500px){
-  .container-icon{
+@media screen and (min-width: 200px) and (max-width: 500px) {
+  .container-icon {
     margin-top: 8rem;
   }
-
 }
 
-
 @media screen and (min-width: 800px) {
-
-  .home-page{
+  .home-page {
     max-width: 100%;
     max-height: 60%;
- }
+  }
 
   .title {
     font-size: 4rem;
@@ -158,17 +159,29 @@ h2 {
     justify-content: center;
     margin-left: 35rem;
   }*/
-  .container-icon{
+  .container-icon {
     cursor: pointer;
     display: flex;
     justify-content: center;
     margin-top: 24rem;
     margin-left: 50rem;
-}
-  .container-heart{
+  }
+
+  .heart {
+    height: 100px;
+    width: 100px;
+  }
+
+  .second-heart {
+    height: 70px;
+    width: 70px;
+  }
+
+  .container-heart {
     display: block;
     margin-top: 5rem;
     float: right;
+    margin-right: 4rem;
   }
 
   .container-heart path {
@@ -176,7 +189,7 @@ h2 {
     stroke-width: 8;
     stroke: #893b48;
   }
-  
+
   .operator {
     animation: fadeIn 1s 1.5s backwards;
     margin-right: 5rem;
@@ -184,14 +197,13 @@ h2 {
     width: 60px;
     height: 60px;
   }
-  
+
   .operator:hover {
     fill: #7c2c3a;
   }
-  .container-icons{
+  .container-icons {
     float: right;
   }
-
 }
 
 @media screen and (min-width: 1300px) {
@@ -220,6 +232,16 @@ h2 {
     justify-content: center;
     margin-left: 50rem;
     margin-top: 20rem;
+  }
+
+  .heart {
+    height: 150px;
+    width: 150px;
+  }
+
+  .second-heart {
+    height: 120px;
+    width: 120px;
   }
 
   .text-zone {
