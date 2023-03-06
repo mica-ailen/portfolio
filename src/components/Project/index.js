@@ -22,21 +22,21 @@ const Projects = () => {
           button={'View website'}
         />
         <Cards
-          title="Choosing your movie"
+          title="Movie Match"
           imageUrl={project2}
           body="Do you ever struggle to decide on what movie to watch? My app makes it easy. Choose a category and get a randomized suggestion. Enjoy a hassle-free movie-watching experience."
           url={'https://github.com/mica-ailen/Choosing-your-movie'}
           button={'View repository'}
         />
         <Cards
-          title="Getting recipes"
+          title="Dish Discovery"
           imageUrl={project3}
           body="Staring at a fridge full of ingredients? My app helps you out. Enter an ingredient and get a selection of recipes, plus step-by-step video tutorials. Cook with ease, no matter your experience."
           url={'https://github.com/mica-ailen/Getting-recipes'}
           button={'View repository'}
         />
         <Cards
-          title="Search a movie"
+          title="Film App"
           imageUrl={project4}
           body="This application was created to search your favorite movie and it allows you to quickly find information about films that interest you. This app is the perfect companion for discovering new and classic films."
           url={'https://github.com/mica-ailen/Movie-App-React'}
