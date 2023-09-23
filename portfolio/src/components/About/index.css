@@ -1,0 +1,217 @@
+.about-page {
+  overflow: hidden;
+  display: block;
+  width: 80%;
+  margin-left: 5rem;
+}
+
+p {
+  font-style: 13px;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  min-width: fit-content;
+  animation: pulse 1s, fadeIn 2s 1.4s backwards;
+}
+
+  p:nth-of-type(1) {
+    animation-delay: 1.5s;
+  }
+
+  p:nth-of-type(2) {
+    animation-delay: 1.6s;
+  }
+
+  p:nth-of-type(3) {
+    animation-delay: 1.7s;
+  }
+
+.title-about {
+  font-size: 50px;
+  color: #6f1e2c;
+  font-weight: 400;
+  margin-top: 4rem;
+  position: relative;
+  margin-bottom: 40px;
+  left: 5px;
+  animation: fadeIn 1s 1s backwards;
+}
+
+.link a{
+  color: #7c2c3a;
+  font-weight: 400;
+}
+
+/*Animation cube*/
+
+.stage-cube-cont {
+  margin-top: 4rem;
+  width: 80%;
+  height: 100%;
+  margin-left: 0;
+  position: absolute;
+  overflow: hidden;
+  margin-bottom: 10rem;
+  animation: fadeIn 1s 2s backwards;
+}
+
+.cubespinner {
+  animation-name: spincube;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 12s;
+  transform-style: preserve-3d;
+  transform-origin: 100px 100px 0;
+  margin-left: calc(50% - 100px);
+}
+
+  div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.4);
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px 0px #a14051;
+  }
+
+  .face1 {
+    transform: translateZ(100px);
+  }
+  .face2 {
+    transform: rotateY(90deg) translateZ(100px);
+  }
+  .face3 {
+    transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+  }
+  .face4 {
+    transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+  }
+  .face5 {
+    transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+  }
+  .face6 {
+    transform: translateZ(100px);
+  }
+
+@keyframes spincube {
+  from,
+  to {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  16% {
+    transform: rotateY(-90deg);
+  }
+  33% {
+    transform: rotateY(-90deg) rotateZ(90deg);
+  }
+  50% {
+    transform: rotateY(-180deg) rotateZ(90deg);
+  }
+  66% {
+    transform: rotateY(-270deg) rotateZ(90deg);
+  }
+  83% {
+    transform: rotateX(90deg);
+  }
+}
+
+/*Icons*/
+
+.icons{
+  animation: fadeIn 3s 3s backwards;
+}
+
+.icons h3 {
+  font-size: 2rem;
+  color: white;
+}
+
+.github-icon{
+  font-size: 3rem;
+}
+
+.linkedin-icon{
+  font-size: 3rem;
+}
+
+.github-icon,
+.linkedin-icon{
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.github-icon:hover,
+.linkedin-icon:hover{
+  color:#7c2c3a;
+}
+
+@media screen and (min-width: 300px) and (max-width: 380px) {
+  .about-page{
+    overflow-y: visible;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .about-page{
+    overflow: hidden;
+  }
+
+  .about-page {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .text-zone-about {
+    margin-top: 5rem;
+    float: left;
+    width: 50%;
+    margin-left: 10rem;
+  }
+
+  .title-about {
+    font-size: 50px;
+    margin-top: 0;
+    left: 10px;
+  }
+
+  .text-zone-about p {
+    font-size: 1.8rem;
+  }
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 1100px){
+  .text-zone-about {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+   /*Animation cube*/
+   .stage-cube-cont {
+    width: 50%;
+    margin-top: 4rem;
+    top: 0;
+    padding-top: 18%;
+    margin-left: 0;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .text-zone-about {
+    margin-top: 8rem;
+  }
+
+  .text-zone-about p {
+    font-size: 2rem;
+  }
+
+  .stage-cube-cont {
+    margin-top: 4rem;
+  }
+}

@@ -30,11 +30,10 @@ const About = () => {
           impact on users through my work.
         </p>
         <p>
-          Currently I'm continue to develop Freelance projects, which serve me
-          to challenge myself.
+        Currently I'm working in <a href='https://nordinsight.com/' target='_blank' className='link'>NordInsight</a> as a Frontend Developer Intern.
         </p>
         <p>
-          I have experience with HTML, CSS, Bootstrap, JavaScript and React.
+          Tech stack: HTML, CSS, Bootstrap, JavaScript, TypeScript, React, Node.js, Express, MongoDB.
         </p>
       </div>
       <div className="stage-cube-cont">
