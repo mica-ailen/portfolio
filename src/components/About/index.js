@@ -31,7 +31,7 @@ const About = () => {
           impact on users through my work.
         </p>
         <p>
-          Currently I'm working in <a href='https://nordinsight.com/' target='_blank' className='link'>NordInsight</a> as a Frontend Developer Intern.
+          Currently I'm working in <a href='https://nordinsight.com/' target='_blank' className='link-web'>NordInsight</a> as a Frontend Developer Intern.
         </p>
         <p>
         Tech stack: HTML, CSS, Bootstrap, JavaScript, TypeScript, React, Node.js, Express, MongoDB.
