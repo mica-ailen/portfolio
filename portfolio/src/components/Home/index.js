@@ -7,12 +7,11 @@ const Home = () => {
     <div className="home-page">
       <div className="text-zone">
         <h1 className="title">
-          Hi, <br />
-          I'm Micaela
+          Hi,  I'm Micaela
           <br />
           Web developer
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Full Stack Developer</h2>
         <a
           href="https://www.linkedin.com/in/micaela-paw/"
           className="button"
