@@ -19,7 +19,7 @@ const Home = () => {
           CONTACT ME
         </a>
       </div>
-      <div className="">
+      <div>
         <HeartIcons />
       </div>
     </div>
