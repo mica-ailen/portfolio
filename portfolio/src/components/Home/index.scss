@@ -4,12 +4,18 @@ body {
   overflow: none;
 }
 
+.text-zone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .home-page {
-  width: 100%;
+  /*width: 100%;
   max-height: 80%;
   margin-left: 5rem;
   z-index: 9999;
-  overflow: hidden;
+  overflow: hidden;*/
 }
 
 .title {
@@ -58,9 +64,9 @@ h2 {
   cursor: pointer;
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 15rem;
-  margin-right: 10rem;
+  margin-top: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .container-icon path {
@@ -125,8 +131,6 @@ h2 {
     cursor: pointer;
     display: flex;
     justify-content: center;
-    margin-top: -20rem;
-    margin-left: 35rem;
   }
 }
 
@@ -137,10 +141,10 @@ h2 {
   }
 
   .text-zone {
-    position: absolute;
+    /*position: absolute;
     width: 40%;
     max-height: 90%;
-    margin-left: 10rem;
+    margin-left: 10rem;*/
   }
 
   .logo-animation {
@@ -151,14 +155,14 @@ h2 {
   }
 
   .container-icon {
-    cursor: pointer;
+    /*cursor: pointer;
     display: flex;
     justify-content: center;
     margin-left: 50rem;
-    margin-top: 20rem;
+    margin-top: 20rem;*/
   }
   .container-icon {
-    padding-top: 10rem;
+    /*padding-top: 10rem;*/
   }
 
   .text-zone {
@@ -179,7 +183,7 @@ h2 {
     font-size: 4rem;
   }
   .container-icon {
-    padding-top: 10rem;
+    /*padding-top: 10rem;*/
   }
 
   .text-zone {

@@ -45,6 +45,16 @@ const Navbar = () => {
           <NavLink
             exact="true"
             activeclassname="active"
+            className="link"
+            to="/experience"
+            onClick={() => setIsOpen(!isOpen)}>
+            <li>
+              Experience
+            </li>
+          </NavLink>
+          <NavLink
+            exact="true"
+            activeclassname="active"
             to="/projects"
             onClick={() => setIsOpen(!isOpen)}
             className="link">

@@ -46,6 +46,16 @@ const Sidebar = () => {
           <NavLink
             exact="true"
             activeclassname="active"
+            to="/experience"
+            onClick={() => setIsOpen(!isOpen)}>
+            <li>
+              {' '}
+              <a href="#">Experience</a>
+            </li>
+          </NavLink>
+          <NavLink
+            exact="true"
+            activeclassname="active"
             to="/projects"
             onClick={() => setIsOpen(!isOpen)}>
             <li>

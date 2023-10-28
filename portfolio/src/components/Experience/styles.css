@@ -1,0 +1,44 @@
+.experience-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience-page h1 {
+  color: rgb(91, 17, 54);
+  text-align: center;
+}
+
+.experience-description {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: #6f1e2c;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px #7c2c3a;
+  padding: 20px;
+  background-color: #ffffff;
+  max-width: 800px;
+  transition: transform 200ms ease-in;
+  animation: fadeIn 2s 2.2s backwards;
+}
+
+.experience-description h4 {
+  color: #6f1e2c;
+  font-size: 1.7rem;
+}
+.experience-description ul {
+  display: inline-block;
+  flex-direction: column;
+}
+
+.experience-description li {
+  text-align: left;
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+}
+
+.experience-description h3 {
+  font-size: 2rem;
+}

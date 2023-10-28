@@ -7,7 +7,7 @@ return(
     <div>
     <div className="projects-page">
         <h1>My projects</h1>
-        </div>s
+        </div>
     </div>
     )
 }
