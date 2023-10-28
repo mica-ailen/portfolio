@@ -1,11 +1,11 @@
-body{
+body {
   overflow-x: hidden !important;
 }
 
 .home-page {
-  max-width: 100%;
+  /*max-width: 100%;
   margin-left: 5rem;
-  z-index: 9999;
+  z-index: 9999;*/
 }
 
 .title {
@@ -45,18 +45,18 @@ h2 {
 }
 
 .button:hover {
-  background-color: #D75A6E;
+  background-color: #d75a6e;
   color: black;
   box-shadow: 0 0 5px 0px rgb(96, 31, 57);
 }
 
 .container-icon {
-  cursor: pointer;
+  /*cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 10rem;
-  margin-right: 10rem;
+  margin-right: 10rem;*/
 }
 
 .container-icon path {
@@ -116,31 +116,25 @@ h2 {
   height: 60px;
 }
 
-.container-heart{
+.container-heart {
   display: none;
 }
 
-@media screen and (min-width: 200px) and (max-width:500px){
-  .container-icon{
-    margin-top: 8rem;
+@media screen and (min-width: 200px) and (max-width: 500px) {
+  .container-icon {
+    margin-top: 4rem;
   }
-
 }
 
-
 @media screen and (min-width: 800px) {
+  /*.text-zone {
+    width: 80%;*/
+}
 
-  .text-zone {
-    width: 80%;
-  }
-  
-  .container-icon {
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    margin-left: 35rem;
-  }
-
+.container-icon {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (min-width: 950px) {
@@ -164,16 +158,13 @@ h2 {
   }
 
   .container-icon {
-    padding-top: 10rem;
     cursor: pointer;
     display: flex;
     justify-content: center;
-    margin-left: 50rem;
-    margin-top: 20rem;
   }
 
   .text-zone {
-    margin-top: 6rem;
+    /*margin-top: 6rem;*/
   }
 
   .button {
@@ -197,8 +188,7 @@ h2 {
     font-size: 1.6rem;
   }
 
-
-  .container-heart{
+  .container-heart {
     display: block;
     margin-top: 5rem;
     float: right;
@@ -209,7 +199,7 @@ h2 {
     stroke-width: 8;
     stroke: #893b48;
   }
-  
+
   .operator {
     animation: fadeIn 1s 1.5s backwards;
     margin-right: 5rem;
@@ -217,12 +207,10 @@ h2 {
     width: 60px;
     height: 60px;
   }
-  
+
   .operator:hover {
     fill: #7c2c3a;
   }
-  .container-icons{
-    float: right;
+  .container-icons {
   }
-  
 }
