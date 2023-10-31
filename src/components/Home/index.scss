@@ -1,14 +1,13 @@
 //Mobile first
 
 body {
-  overflow-x: hidden !important;
-  overflow: hidden;
+  overflow: none;
 }
 
-.home-page {
-  max-width: 100%;
-  margin-left: 5rem;
-  z-index: 9999;
+.text-zone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title {
@@ -20,6 +19,7 @@ body {
 }
 
 h2 {
+  margin-left: 2rem;
   color: #6f1e2c;
   font-size: 30px;
   font-weight: 400;
@@ -42,11 +42,12 @@ h2 {
   border: 1.5px solid #6f1e2c;
   border-radius: 20px;
   float: left;
+  margin-left: 2rem;
   animation: fadeIn 1s 1.4s backwards;
 }
 
 .button:hover {
-  background-color: #d75a6e; // rgb(243, 106, 136);
+  background-color: rgb(243, 106, 136);
   color: black;
   box-shadow: 0 0 5px 0px rgb(96, 31, 57);
 }
@@ -55,14 +56,9 @@ h2 {
   cursor: pointer;
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 10rem;
-  margin-right: 10rem;
-}
-
-.heart {
-  width: 180px;
-  height: 180px;
+  margin-top: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .container-icon path {
@@ -75,8 +71,8 @@ h2 {
   animation: fadeIn 1s 1.5s backwards;
   margin-right: 5rem;
   margin-top: 3rem;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
 
 .operator:hover {
@@ -118,71 +114,22 @@ h2 {
   animation: fadeIn 1s 1.9s backwards;
   margin-left: 5rem;
   margin-top: 3rem;
-  width: 80px;
-  height: 80px;
-}
-
-.container-heart {
-  display: none;
-}
-
-@media screen and (min-width: 200px) and (max-width: 500px) {
-  .container-icon {
-    margin-top: 8rem;
-  }
+  width: 60px;
+  height: 60px;
 }
 
 @media screen and (min-width: 800px) {
-  .home-page {
-    max-width: 100%;
-    max-height: 60%;
-  }
-
-  .title {
-    font-size: 5rem;
-  }
-
-  h2 {
-    font-size: 3rem;
-  }
-
-  .text-zone {
-    width: 40%;
-    max-height: 90%;
-    margin-left: 10rem;
-  }
-
   .container-icon {
     cursor: pointer;
     display: flex;
     justify-content: center;
-    margin-top: -20rem;
-    margin-left: 50rem;
   }
-
-  .heart {
-    height: 90px;
-    width: 90px;
-  }
-
-  .operator,
-  .operators{
-    width: 60px;
-    height: 60px;
-  }
-
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 950px) {
   .home-page {
     max-width: 100%;
-  }
-
-  .text-zone {
-    position: absolute;
-    width: 40%;
-    max-height: 90%;
-    margin-left: 10rem;
+    max-height: 60%;
   }
 
   .logo-animation {
@@ -190,54 +137,6 @@ h2 {
     float: right;
     font-size: 5rem;
     margin-left: 5rem;
-  }
-
-  .container-icon {
-    padding-top: 10rem;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    margin-left: 50rem;
-    margin-top: 20rem;
-  }
-
-  .container-heart {
-    animation: fadeIn 1.5s 2s backwards;
-    display: block;
-    margin-top: 5rem;
-    float: right;
-    margin-right: 4rem;
-  }
-
-  .container-heart path {
-    fill: transparent;
-    stroke-width: 8;
-    stroke: #893b48;
-  }
-
-  .operator {
-    animation: fadeIn 1s 1.5s backwards;
-    margin-right: 5rem;
-    margin-top: 3rem;
-    width: 60px;
-    height: 60px;
-  }
-
-  .operator:hover {
-    fill: #7c2c3a;
-  }
-  .container-icons {
-    float: right;
-  }
-
-  .heart {
-    height: 150px;
-    width: 150px;
-  }
-
-  .second-heart {
-    height: 120px;
-    width: 120px;
   }
 
   .text-zone {
@@ -256,6 +155,9 @@ h2 {
 
   h2 {
     font-size: 4rem;
+  }
+  .text-zone {
+    margin-top: 6rem;
   }
 
   .button {
