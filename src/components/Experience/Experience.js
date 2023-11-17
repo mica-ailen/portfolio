@@ -8,7 +8,7 @@ function Experience() {
       <div className="experience-items">
         <div className="experience-description">
           <h3>NordInsight – Full-stack Developer Intern</h3>
-          <h4>July 2023 - Present (4 months +)</h4>
+          <h4>July 2023 - Present (5 months +)</h4>
           <ul>
             <li>Enhancing implant database with new features</li>
             <li>Form automatically completed using OpenAI API (model GPT-4)</li>
