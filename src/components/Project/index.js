@@ -36,7 +36,7 @@ const Projects = () => {
           button={'View repository'}
         />
         <Cards
-          title="Film App"
+          title="Film Search Application"
           imageUrl={project4}
           body="This application was created to search your favorite movie and it allows you to quickly find information about films that interest you. This app is the perfect companion for discovering new and classic films."
           url={'https://github.com/mica-ailen/Movie-App-React'}
