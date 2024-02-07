@@ -16,7 +16,7 @@ const About = () => {
       <div className="text-zone-about">
         <h1 className='title-about'>About me</h1>
         <p>
-          I am a Frontend Web Developer (EU citizenship). I am passionate about
+          I am a Full-stack Developer (EU citizenship). I am passionate about
           creating visually appealing and user-friendly websites.
         </p>
         <p>
@@ -29,9 +29,6 @@ const About = () => {
           I am a quick learner and always willing to take on new challenges. I
           am excited to be a part of a team where I can grow and make a positive
           impact on users through my work.
-        </p>
-        <p>
-          Currently I'm working in <a href='https://nordinsight.com/' target='_blank' className='link-web'>NordInsight</a> as a Frontend Developer Intern.
         </p>
         <p>
         Tech stack: HTML, CSS, Bootstrap, JavaScript, TypeScript, React, Node.js, Express, MongoDB.
